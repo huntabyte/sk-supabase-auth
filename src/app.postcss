@@ -80,6 +80,17 @@ main {
 	}
 }
 
+.btn-ghost {
+	background-color: transparent;
+	color: #ffff;
+	border: 2px solid $gray;
+
+	&:hover {
+		background-color: $dark-100;
+		color: #ffffff;
+	}
+}
+
 input {
 	background-color: $dark-100;
 	border: $gray 2px solid;
@@ -102,9 +113,28 @@ input {
 	min-width: 400px;
 	margin: 0 auto;
 
+	& button {
+		margin-bottom: 10px;
+	}
+
 	& label {
 		text-align: left;
 		padding-bottom: 2px;
 		font-size: 16px;
+	}
+}
+
+.socials {
+	width: 100%;
+	max-width: 400px;
+	min-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding-top: 10px;
+
+	& .btn {
+		width: 100%;
 	}
 }
