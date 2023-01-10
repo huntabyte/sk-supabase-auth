@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <main>
 	<h1>Login</h1>
 	<form action="?/login" method="POST" class="auth-form">
