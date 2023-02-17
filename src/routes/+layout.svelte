@@ -3,6 +3,7 @@
 	import { supabaseClient } from '$lib/supabase';
 	import { onMount } from 'svelte';
 	import '../app.postcss';
+	import Nav from '$lib/components/Nav.svelte';
 
 	onMount(() => {
 		const {
@@ -18,4 +19,7 @@
 	});
 </script>
 
-<slot />
+<main>
+	<Nav />
+	<slot></slot>
+</main>
