@@ -23,3 +23,7 @@
 	<Nav />
 	<slot></slot>
 </main>
+
+<svelte:head>
+	<script defer src="https://unpkg.com/alpinejs@3.11.1/dist/cdn.min.js"></script>
+</svelte:head>
