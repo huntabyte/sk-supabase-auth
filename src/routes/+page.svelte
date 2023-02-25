@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Review from '$lib/components/Review.svelte';
 	import { enhance, type SubmitFunction } from '$app/forms';
 	import { supabaseClient } from '$lib/supabase';
 	import type { PageData } from './$types';
@@ -29,4 +30,5 @@
 		</div>
 		<div class="auth-buttons" />
 	{/if}
+	<Review />
 </main>
