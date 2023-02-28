@@ -15,10 +15,12 @@
     },
     "devDependencies": {
         "@playwright/test": "^1.28.1",
+        "@skeletonlabs/skeleton": "^0.124.2",
         "@supabase/auth-helpers-sveltekit": "^0.8.6",
         "@supabase/supabase-js": "^2.1.3",
         "@sveltejs/adapter-auto": "next",
-        "@sveltejs/kit": "next",
+        "@sveltejs/adapter-vercel": "^2.0.4",
+        "@sveltejs/kit": "1.7.1",
         "@typescript-eslint/eslint-plugin": "^5.45.0",
         "@typescript-eslint/parser": "^5.45.0",
         "autoprefixer": "^10.4.7",
@@ -39,5 +41,10 @@
         "vite": "^4.0.0",
         "vitest": "^0.25.3"
     },
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "alpinejs": "^3.11.1",
+        "netlify": "^13.1.2",
+        "vercel": "^28.16.2"
+    }
 }

@@ -61,4 +61,5 @@
 		<button formaction="?/login&provider=discord" class="btn btn-ghost">Discord</button>
 		<button formaction="?/login&provider=github" class="btn btn-ghost">GitHub</button>
 	</form>
+	<p class="padding-10">Not a user? <a href="?/register" class="">Register</a></p>
 </main>
