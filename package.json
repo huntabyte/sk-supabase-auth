@@ -15,6 +15,7 @@
     },
     "devDependencies": {
         "@playwright/test": "^1.28.1",
+        "@supabase/supabase-js": "^2.39.8",
         "@sveltejs/adapter-auto": "next",
         "@sveltejs/kit": "next",
         "@typescript-eslint/eslint-plugin": "^5.45.0",
@@ -37,5 +38,8 @@
         "vite": "^4.0.0",
         "vitest": "^0.25.3"
     },
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "@supabase/ssr": "^0.1.0"
+    }
 }
